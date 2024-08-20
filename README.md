@@ -10,7 +10,7 @@ Order Service (Layanan Pesanan)
 Inventory Service (Layanan Inventaris)
 Notification Service (Layanan Notifikasi)
 API Gateway menggunakan Spring Cloud Gateway MVC
-Shop Frontend menggunakan Angular 18
+Shop Frontend menggunakan Angular
 Tech Stack
 Teknologi yang digunakan dalam proyek ini adalah:
 
