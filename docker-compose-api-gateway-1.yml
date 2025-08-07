@@ -1,0 +1,40 @@
+services:
+
+  api-gateway-1:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        GITHUB_TOKEN: ${GITHUB_TOKEN}
+    container_name: api-gateway-1
+    ports:
+      - "9001:9000"
+    env_file:
+      - ../devops/vault-agent/rendered/api-gateway-1.env
+    restart: unless-stopped
+    dns:
+      - 172.27.0.2
+    networks:
+      app-network:
+        ipv4_address: 172.27.0.31
+
+  api-gateway-sidecar:
+    build:
+      context: .
+      dockerfile: envoyproxy/envoy/Dockerfile.consul-envoy
+    user: root
+    command: >
+      sh -c "
+        chmod +x /entrypoint.sh && \
+        /entrypoint.sh
+      "
+    volumes:
+      - ./entrypoint-sidecar.sh:/entrypoint.sh
+      - ../devops/vault-agent/rendered/api-gateway-1.env:/vault-agent/rendered/api-gateway-1.env
+    network_mode: "service:api-gateway-1"
+    depends_on:
+      - api-gateway-1
+
+networks:
+  app-network:
+    external: true

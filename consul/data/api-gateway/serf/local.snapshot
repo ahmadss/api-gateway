@@ -1,0 +1,767 @@
+alive: api-gateway-node 172.27.0.31:8301
+alive: consul-server-3 172.27.0.25:8301
+alive: consul-server-2 172.27.0.15:8301
+alive: ingress-gateway-node 172.27.0.18:8301
+alive: move-node 172.27.0.7:8301
+alive: consul-server-1 172.27.0.5:8301
+clock: 4402
+clock: 4403
+alive: auth-public-gateway-node 172.27.0.41:8301
+clock: 4404
+not-alive: auth-public-gateway-node
+alive: auth-node 172.27.0.62:8301
+clock: 4405
+alive: account-node 172.27.0.61:8301
+clock: 4406
+not-alive: auth-node
+not-alive: account-node
+alive: auth-public-gateway-node 172.27.0.41:8301
+clock: 4407
+not-alive: auth-public-gateway-node
+alive: auth-node 172.27.0.62:8301
+clock: 4408
+alive: account-node 172.27.0.61:8301
+clock: 4409
+not-alive: auth-node
+not-alive: account-node
+alive: auth-public-gateway-node 172.27.0.41:8301
+clock: 4410
+not-alive: auth-public-gateway-node
+alive: auth-node 172.27.0.62:8301
+clock: 4411
+alive: account-node 172.27.0.61:8301
+clock: 4412
+not-alive: account-node
+not-alive: auth-node
+alive: auth-public-gateway-node 172.27.0.41:8301
+clock: 4413
+not-alive: auth-public-gateway-node
+alive: account-node 172.27.0.61:8301
+clock: 4414
+alive: auth-node 172.27.0.62:8301
+clock: 4415
+not-alive: auth-node
+not-alive: account-node
+alive: auth-public-gateway-node 172.27.0.41:8301
+clock: 4416
+not-alive: auth-public-gateway-node
+alive: account-node 172.27.0.61:8301
+clock: 4417
+alive: auth-node 172.27.0.62:8301
+clock: 4418
+not-alive: account-node
+not-alive: auth-node
+alive: auth-public-gateway-node 172.27.0.41:8301
+clock: 4419
+alive: account-node 172.27.0.61:8301
+clock: 4420
+not-alive: auth-public-gateway-node
+alive: auth-node 172.27.0.62:8301
+clock: 4421
+not-alive: account-node
+not-alive: auth-node
+alive: auth-public-gateway-node 172.27.0.41:8301
+clock: 4422
+alive: account-node 172.27.0.61:8301
+clock: 4423
+not-alive: auth-public-gateway-node
+alive: auth-node 172.27.0.62:8301
+clock: 4424
+not-alive: account-node
+not-alive: auth-node
+alive: auth-public-gateway-node 172.27.0.41:8301
+clock: 4425
+alive: account-node 172.27.0.61:8301
+clock: 4426
+not-alive: auth-public-gateway-node
+alive: auth-node 172.27.0.62:8301
+clock: 4427
+not-alive: account-node
+not-alive: auth-node
+alive: auth-public-gateway-node 172.27.0.41:8301
+alive: account-node 172.27.0.61:8301
+clock: 4428
+not-alive: account-node
+alive: auth-node 172.27.0.62:8301
+clock: 4429
+not-alive: auth-public-gateway-node
+not-alive: auth-node
+alive: account-node 172.27.0.61:8301
+clock: 4430
+alive: auth-public-gateway-node 172.27.0.41:8301
+clock: 4431
+not-alive: account-node
+alive: auth-node 172.27.0.62:8301
+clock: 4432
+not-alive: auth-public-gateway-node
+not-alive: auth-node
+alive: account-node 172.27.0.61:8301
+clock: 4433
+alive: auth-public-gateway-node 172.27.0.41:8301
+clock: 4434
+not-alive: account-node
+alive: auth-node 172.27.0.62:8301
+clock: 4435
+not-alive: auth-node
+not-alive: auth-public-gateway-node
+alive: account-node 172.27.0.61:8301
+clock: 4436
+alive: auth-public-gateway-node 172.27.0.41:8301
+clock: 4437
+alive: auth-node 172.27.0.62:8301
+clock: 4438
+not-alive: account-node
+not-alive: auth-node
+not-alive: auth-public-gateway-node
+alive: account-node 172.27.0.61:8301
+clock: 4439
+alive: auth-public-gateway-node 172.27.0.41:8301
+clock: 4440
+alive: auth-node 172.27.0.62:8301
+clock: 4441
+not-alive: account-node
+not-alive: auth-node
+not-alive: auth-public-gateway-node
+alive: account-node 172.27.0.61:8301
+clock: 4442
+alive: auth-node 172.27.0.62:8301
+clock: 4443
+alive: auth-public-gateway-node 172.27.0.41:8301
+clock: 4444
+not-alive: auth-node
+not-alive: auth-public-gateway-node
+not-alive: account-node
+alive: auth-node 172.27.0.62:8301
+clock: 4445
+alive: auth-public-gateway-node 172.27.0.41:8301
+clock: 4446
+not-alive: auth-node
+not-alive: auth-public-gateway-node
+alive: auth-node 172.27.0.62:8301
+clock: 4447
+alive: auth-public-gateway-node 172.27.0.41:8301
+clock: 4448
+not-alive: auth-node
+not-alive: auth-public-gateway-node
+alive: account-node 172.27.0.61:8301
+clock: 4449
+clock: 4450
+alive: auth-node 172.27.0.62:8301
+clock: 4451
+alive: auth-public-gateway-node 172.27.0.41:8301
+clock: 4452
+clock: 4453
+not-alive: auth-node
+not-alive: auth-public-gateway-node
+clock: 4454
+clock: 4455
+clock: 4456
+alive: auth-node 172.27.0.62:8301
+clock: 4457
+alive: auth-public-gateway-node 172.27.0.41:8301
+clock: 4458
+not-alive: auth-node
+not-alive: auth-public-gateway-node
+alive: auth-node 172.27.0.62:8301
+clock: 4459
+not-alive: auth-node
+alive: auth-public-gateway-node 172.27.0.41:8301
+clock: 4460
+not-alive: auth-public-gateway-node
+alive: auth-node 172.27.0.62:8301
+clock: 4461
+not-alive: auth-node
+alive: auth-public-gateway-node 172.27.0.41:8301
+clock: 4462
+not-alive: auth-public-gateway-node
+alive: auth-node 172.27.0.62:8301
+clock: 4463
+not-alive: auth-node
+alive: auth-public-gateway-node 172.27.0.41:8301
+clock: 4464
+not-alive: auth-public-gateway-node
+alive: auth-node 172.27.0.62:8301
+clock: 4465
+not-alive: auth-node
+alive: auth-public-gateway-node 172.27.0.41:8301
+clock: 4466
+not-alive: auth-public-gateway-node
+alive: auth-node 172.27.0.62:8301
+clock: 4467
+not-alive: auth-node
+alive: auth-public-gateway-node 172.27.0.41:8301
+clock: 4468
+not-alive: auth-public-gateway-node
+alive: auth-node 172.27.0.62:8301
+clock: 4469
+not-alive: auth-node
+alive: auth-public-gateway-node 172.27.0.41:8301
+clock: 4470
+not-alive: auth-public-gateway-node
+alive: auth-node 172.27.0.62:8301
+clock: 4471
+not-alive: auth-node
+alive: auth-public-gateway-node 172.27.0.41:8301
+clock: 4472
+not-alive: auth-public-gateway-node
+alive: auth-node 172.27.0.62:8301
+clock: 4473
+not-alive: auth-node
+alive: auth-public-gateway-node 172.27.0.41:8301
+clock: 4474
+not-alive: auth-public-gateway-node
+alive: auth-node 172.27.0.62:8301
+clock: 4475
+not-alive: auth-node
+alive: auth-public-gateway-node 172.27.0.41:8301
+clock: 4476
+not-alive: auth-public-gateway-node
+alive: auth-node 172.27.0.62:8301
+clock: 4477
+not-alive: auth-node
+alive: auth-public-gateway-node 172.27.0.41:8301
+clock: 4478
+not-alive: auth-public-gateway-node
+alive: auth-node 172.27.0.62:8301
+clock: 4479
+not-alive: auth-node
+alive: auth-public-gateway-node 172.27.0.41:8301
+clock: 4480
+not-alive: auth-public-gateway-node
+alive: auth-node 172.27.0.62:8301
+clock: 4481
+not-alive: auth-node
+alive: auth-public-gateway-node 172.27.0.41:8301
+clock: 4482
+not-alive: auth-public-gateway-node
+alive: auth-node 172.27.0.62:8301
+clock: 4483
+not-alive: auth-node
+alive: auth-public-gateway-node 172.27.0.41:8301
+clock: 4484
+not-alive: auth-public-gateway-node
+alive: auth-node 172.27.0.62:8301
+clock: 4485
+not-alive: auth-node
+alive: auth-public-gateway-node 172.27.0.41:8301
+clock: 4486
+not-alive: auth-public-gateway-node
+alive: auth-node 172.27.0.62:8301
+clock: 4487
+not-alive: auth-node
+alive: auth-public-gateway-node 172.27.0.41:8301
+clock: 4488
+alive: auth-node 172.27.0.62:8301
+clock: 4489
+clock: 4490
+not-alive: auth-node
+clock: 4491
+alive: auth-node 172.27.0.62:8301
+clock: 4492
+not-alive: auth-node
+clock: 4493
+clock: 4494
+alive: auth-node 172.27.0.62:8301
+clock: 4495
+not-alive: auth-node
+clock: 4496
+clock: 4497
+alive: auth-node 172.27.0.62:8301
+clock: 4498
+not-alive: auth-node
+clock: 4499
+alive: auth-node 172.27.0.62:8301
+clock: 4500
+not-alive: auth-node
+clock: 4501
+clock: 4502
+alive: auth-node 172.27.0.62:8301
+clock: 4503
+not-alive: auth-node
+clock: 4504
+clock: 4505
+alive: auth-node 172.27.0.62:8301
+clock: 4506
+not-alive: auth-node
+clock: 4507
+alive: auth-node 172.27.0.62:8301
+clock: 4508
+not-alive: auth-node
+clock: 4509
+clock: 4510
+alive: auth-node 172.27.0.62:8301
+clock: 4511
+not-alive: auth-node
+clock: 4512
+clock: 4513
+alive: auth-node 172.27.0.62:8301
+clock: 4514
+not-alive: auth-node
+clock: 4515
+alive: auth-node 172.27.0.62:8301
+clock: 4516
+not-alive: auth-node
+clock: 4517
+clock: 4518
+alive: auth-node 172.27.0.62:8301
+clock: 4519
+not-alive: auth-node
+clock: 4520
+clock: 4521
+alive: auth-node 172.27.0.62:8301
+clock: 4522
+not-alive: auth-node
+clock: 4523
+alive: auth-node 172.27.0.62:8301
+clock: 4524
+not-alive: auth-node
+clock: 4525
+clock: 4526
+alive: auth-node 172.27.0.62:8301
+clock: 4527
+not-alive: auth-node
+clock: 4528
+clock: 4529
+alive: auth-node 172.27.0.62:8301
+clock: 4530
+not-alive: auth-node
+clock: 4531
+alive: auth-node 172.27.0.62:8301
+clock: 4532
+not-alive: auth-node
+clock: 4533
+clock: 4534
+alive: auth-node 172.27.0.62:8301
+clock: 4535
+not-alive: auth-node
+clock: 4536
+clock: 4537
+alive: auth-node 172.27.0.62:8301
+clock: 4538
+not-alive: auth-node
+clock: 4539
+alive: auth-node 172.27.0.62:8301
+clock: 4540
+not-alive: auth-node
+clock: 4541
+clock: 4542
+alive: auth-node 172.27.0.62:8301
+clock: 4543
+not-alive: auth-node
+clock: 4544
+clock: 4545
+alive: auth-node 172.27.0.62:8301
+clock: 4546
+not-alive: auth-node
+clock: 4547
+alive: auth-node 172.27.0.62:8301
+clock: 4548
+not-alive: auth-node
+clock: 4549
+clock: 4550
+alive: auth-node 172.27.0.62:8301
+clock: 4551
+not-alive: auth-node
+clock: 4552
+clock: 4553
+alive: auth-node 172.27.0.62:8301
+clock: 4554
+not-alive: auth-node
+clock: 4555
+alive: auth-node 172.27.0.62:8301
+clock: 4556
+clock: 4557
+not-alive: auth-node
+clock: 4558
+alive: auth-node 172.27.0.62:8301
+clock: 4559
+not-alive: auth-node
+clock: 4560
+clock: 4561
+alive: auth-node 172.27.0.62:8301
+clock: 4562
+not-alive: auth-node
+clock: 4563
+alive: auth-node 172.27.0.62:8301
+clock: 4564
+clock: 4565
+not-alive: auth-node
+clock: 4566
+alive: auth-node 172.27.0.62:8301
+clock: 4567
+not-alive: auth-node
+clock: 4568
+clock: 4569
+alive: auth-node 172.27.0.62:8301
+clock: 4570
+not-alive: auth-node
+clock: 4571
+alive: auth-node 172.27.0.62:8301
+clock: 4572
+clock: 4573
+not-alive: auth-node
+clock: 4574
+clock: 4575
+clock: 4576
+clock: 4577
+clock: 4578
+alive: auth-node 172.27.0.62:8301
+clock: 4579
+clock: 4580
+not-alive: auth-node
+clock: 4581
+not-alive: auth-public-gateway-node
+alive: auth-public-gateway-node 172.27.0.41:8301
+clock: 4582
+clock: 4583
+alive: auth-node 172.27.0.62:8301
+clock: 4584
+not-alive: auth-node
+clock: 4585
+alive: auth-node 172.27.0.62:8301
+clock: 4586
+clock: 4587
+not-alive: auth-node
+alive: api-gateway-node 172.27.0.31:8301
+alive: consul-server-2 172.27.0.15:8301
+alive: auth-public-gateway-node 172.27.0.41:8301
+alive: consul-server-3 172.27.0.25:8301
+alive: consul-server-1 172.27.0.5:8301
+alive: move-node 172.27.0.7:8301
+alive: account-node 172.27.0.61:8301
+alive: ingress-gateway-node 172.27.0.18:8301
+event-clock: 62
+clock: 4588
+clock: 4589
+alive: auth-node 172.27.0.62:8301
+clock: 4590
+not-alive: auth-node
+clock: 4591
+clock: 4592
+alive: auth-node 172.27.0.62:8301
+clock: 4593
+not-alive: auth-node
+clock: 4594
+alive: auth-node 172.27.0.62:8301
+clock: 4595
+clock: 4596
+not-alive: auth-node
+clock: 4597
+alive: auth-node 172.27.0.62:8301
+clock: 4598
+not-alive: auth-node
+clock: 4599
+clock: 4600
+alive: auth-node 172.27.0.62:8301
+clock: 4601
+not-alive: auth-node
+clock: 4602
+alive: auth-node 172.27.0.62:8301
+clock: 4603
+clock: 4604
+not-alive: auth-node
+clock: 4605
+alive: auth-node 172.27.0.62:8301
+clock: 4606
+not-alive: auth-node
+clock: 4607
+clock: 4608
+alive: auth-node 172.27.0.62:8301
+clock: 4609
+not-alive: auth-node
+clock: 4610
+clock: 4611
+alive: auth-node 172.27.0.62:8301
+clock: 4612
+not-alive: auth-node
+clock: 4613
+alive: auth-node 172.27.0.62:8301
+clock: 4614
+not-alive: auth-node
+clock: 4615
+clock: 4616
+alive: auth-node 172.27.0.62:8301
+clock: 4617
+not-alive: auth-node
+clock: 4618
+clock: 4619
+alive: auth-node 172.27.0.62:8301
+clock: 4620
+not-alive: auth-node
+clock: 4621
+alive: auth-node 172.27.0.62:8301
+clock: 4622
+not-alive: auth-node
+clock: 4623
+clock: 4624
+alive: auth-node 172.27.0.62:8301
+clock: 4625
+not-alive: auth-node
+clock: 4626
+clock: 4627
+alive: auth-node 172.27.0.62:8301
+clock: 4628
+not-alive: auth-node
+clock: 4629
+alive: auth-node 172.27.0.62:8301
+clock: 4630
+clock: 4631
+not-alive: auth-node
+clock: 4632
+alive: auth-node 172.27.0.62:8301
+clock: 4633
+not-alive: auth-node
+clock: 4634
+clock: 4635
+alive: auth-node 172.27.0.62:8301
+clock: 4636
+not-alive: auth-node
+clock: 4637
+alive: auth-node 172.27.0.62:8301
+clock: 4638
+clock: 4639
+not-alive: auth-node
+clock: 4640
+alive: auth-node 172.27.0.62:8301
+clock: 4641
+not-alive: auth-node
+clock: 4642
+clock: 4643
+alive: auth-node 172.27.0.62:8301
+clock: 4644
+not-alive: auth-node
+clock: 4645
+clock: 4646
+alive: auth-node 172.27.0.62:8301
+clock: 4647
+not-alive: auth-node
+clock: 4648
+alive: auth-node 172.27.0.62:8301
+clock: 4649
+not-alive: auth-node
+clock: 4650
+clock: 4651
+alive: auth-node 172.27.0.62:8301
+clock: 4652
+not-alive: auth-node
+clock: 4653
+clock: 4654
+alive: auth-node 172.27.0.62:8301
+clock: 4655
+not-alive: auth-node
+not-alive: auth-public-gateway-node
+alive: auth-public-gateway-node 172.27.0.41:8301
+clock: 4656
+alive: auth-node 172.27.0.62:8301
+clock: 4657
+clock: 4658
+not-alive: auth-node
+clock: 4659
+alive: auth-node 172.27.0.62:8301
+clock: 4660
+not-alive: auth-node
+clock: 4661
+clock: 4662
+alive: auth-node 172.27.0.62:8301
+clock: 4663
+not-alive: auth-node
+clock: 4664
+clock: 4665
+alive: auth-node 172.27.0.62:8301
+clock: 4666
+not-alive: auth-node
+clock: 4667
+alive: auth-node 172.27.0.62:8301
+clock: 4668
+not-alive: auth-node
+clock: 4669
+clock: 4670
+alive: auth-node 172.27.0.62:8301
+clock: 4671
+not-alive: auth-node
+clock: 4672
+clock: 4673
+alive: auth-node 172.27.0.62:8301
+clock: 4674
+not-alive: auth-node
+clock: 4675
+alive: auth-node 172.27.0.62:8301
+clock: 4676
+not-alive: auth-node
+clock: 4677
+clock: 4678
+alive: auth-node 172.27.0.62:8301
+clock: 4679
+not-alive: auth-node
+clock: 4680
+clock: 4681
+alive: auth-node 172.27.0.62:8301
+clock: 4682
+not-alive: auth-node
+clock: 4683
+alive: auth-node 172.27.0.62:8301
+clock: 4684
+clock: 4685
+not-alive: auth-node
+clock: 4686
+alive: auth-node 172.27.0.62:8301
+clock: 4687
+not-alive: auth-node
+clock: 4688
+clock: 4689
+alive: auth-node 172.27.0.62:8301
+clock: 4690
+not-alive: auth-node
+clock: 4691
+alive: auth-node 172.27.0.62:8301
+clock: 4692
+clock: 4693
+not-alive: auth-node
+clock: 4694
+alive: auth-node 172.27.0.62:8301
+clock: 4695
+clock: 4696
+not-alive: auth-node
+clock: 4697
+clock: 4698
+alive: nomad-node 172.27.0.37:8301
+clock: 4699
+clock: 4700
+not-alive: nomad-node
+clock: 4701
+alive: auth-node 172.27.0.62:8301
+clock: 4702
+not-alive: auth-node
+alive: auth-node 172.27.0.62:8301
+clock: 4703
+not-alive: auth-node
+alive: auth-node 172.27.0.62:8301
+clock: 4704
+not-alive: auth-node
+alive: auth-node 172.27.0.62:8301
+clock: 4705
+not-alive: auth-node
+alive: auth-node 172.27.0.62:8301
+clock: 4706
+not-alive: auth-node
+alive: auth-node 172.27.0.62:8301
+clock: 4707
+not-alive: auth-node
+clock: 4708
+clock: 4709
+alive: auth-node 172.27.0.62:8301
+clock: 4710
+clock: 4711
+clock: 4712
+not-alive: auth-node
+clock: 4713
+clock: 4714
+clock: 4715
+not-alive: auth-public-gateway-node
+alive: auth-public-gateway-node 172.27.0.41:8301
+clock: 4716
+alive: auth-node 172.27.0.62:8301
+clock: 4717
+not-alive: auth-node
+clock: 4718
+alive: auth-node 172.27.0.62:8301
+clock: 4719
+not-alive: auth-node
+clock: 4720
+alive: auth-node 172.27.0.62:8301
+clock: 4721
+not-alive: auth-node
+clock: 4722
+alive: auth-node 172.27.0.62:8301
+clock: 4723
+not-alive: auth-node
+clock: 4724
+alive: auth-node 172.27.0.62:8301
+clock: 4725
+not-alive: auth-node
+alive: auth-node 172.27.0.62:8301
+clock: 4726
+clock: 4727
+not-alive: auth-node
+alive: auth-node 172.27.0.62:8301
+clock: 4728
+not-alive: auth-node
+clock: 4729
+clock: 4730
+clock: 4731
+clock: 4732
+clock: 4733
+clock: 4734
+clock: 4735
+alive: auth-node 172.27.0.62:8301
+clock: 4736
+clock: 4737
+not-alive: auth-node
+not-alive: auth-public-gateway-node
+alive: auth-public-gateway-node 172.27.0.41:8301
+clock: 4738
+alive: auth-node 172.27.0.62:8301
+clock: 4739
+not-alive: auth-node
+clock: 4740
+clock: 4741
+clock: 4742
+alive: api-gateway-node 172.27.0.31:8301
+alive: auth-public-gateway-node 172.27.0.41:8301
+alive: account-node 172.27.0.61:8301
+alive: api-gateway-node 172.27.0.31:8301
+alive: account-node 172.27.0.61:8301
+alive: auth-public-gateway-node 172.27.0.41:8301
+alive: api-gateway-node 172.27.0.31:8301
+alive: account-node 172.27.0.61:8301
+alive: auth-public-gateway-node 172.27.0.41:8301
+alive: api-gateway-node 172.27.0.31:8301
+alive: account-node 172.27.0.61:8301
+alive: consul-server-1 172.27.0.5:8301
+alive: auth-public-gateway-node 172.27.0.41:8301
+clock: 4743
+alive: consul-server-2 172.27.0.15:8301
+clock: 4744
+event-clock: 63
+alive: consul-server-3 172.27.0.25:8301
+clock: 4745
+clock: 4746
+clock: 4747
+clock: 4748
+clock: 4749
+clock: 4750
+clock: 4751
+clock: 4752
+clock: 4753
+clock: 4754
+clock: 4755
+clock: 4756
+clock: 4757
+clock: 4758
+clock: 4759
+clock: 4760
+clock: 4761
+clock: 4762
+clock: 4763
+clock: 4764
+clock: 4765
+clock: 4766
+clock: 4767
+clock: 4768
+clock: 4769
+clock: 4770
+clock: 4771
+clock: 4772
+clock: 4773
+not-alive: auth-public-gateway-node
+alive: auth-public-gateway-node 172.27.0.41:8301
+clock: 4774
+clock: 4775
+clock: 4776
+clock: 4777
+alive: ingress-gateway-node 172.27.0.18:8301
+clock: 4778
+clock: 4779
+clock: 4780
+clock: 4781
+not-alive: account-node

@@ -1,0 +1,66 @@
+services:
+
+  # 🚪 API Gateway utama
+  # api-gateway:
+  #   image: api-gateway:latest
+  #   container_name: api-gateway
+  #   build:
+  #     context: .
+  #     dockerfile: Dockerfile
+  #   env_file:
+  #     - .env
+  #   ports:
+  #     - "9000:9000"
+  #   dns:
+  #     - 172.27.0.2
+  #     - 8.8.8.8
+  #   networks:
+  #     - app-network
+
+  api-gateway-1:
+    image: api-gateway:latest
+    container_name: api-gateway-1
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./env/api-gateway-1.env:/app/.env
+    env_file:
+      - ./env/api-gateway-1.env
+    environment:
+      ENV_PATH: /app/.env
+    ports:
+      - "9001:9000"  # expose ke host 9001
+    dns:
+      - 172.27.0.2
+      - 8.8.8.8
+    networks:
+      app-network:
+        ipv4_address: 172.27.0.31
+
+
+  # account-gateway:
+  #   image: sg-account
+  #   container_name: account-gateway
+  #   ports:
+  #     - "9002:9002"
+  #   environment:
+  #     - CONSUL_HTTP_ADDR=http://consul-agent-account:8501  # ⬅️ Arahkan ke agent Consul di Docker (account-node)
+  #   networks:
+  #     - app-network
+
+#  🚀 Sub API Gateway Move (sg-move)
+  # move-gateway:
+  #   image: sg-move
+  #   container_name: move-gateway
+  #   ports:
+  #     - "9003:9003"
+  #   environment:
+  #     - CONSUL_HTTP_ADDR=http://consul-agent-move:8502  # ⬅️ arahkan ke agent konsul-move
+  #   networks:
+  #     - app-network
+  
+
+networks:
+  app-network:
+    external: true

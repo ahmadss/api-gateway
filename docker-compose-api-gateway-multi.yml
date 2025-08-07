@@ -1,0 +1,110 @@
+services:
+
+  api-gateway-1:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        GITHUB_TOKEN: ${GITHUB_TOKEN}
+    container_name: api-gateway-1
+    platform: linux/arm64
+    ports:
+      - "9001:9000"
+    # expose:
+    #   - "9000"
+    env_file:
+      - ../devops/vault-agent/rendered/api-gateway-1.env
+    volumes:
+      - ./api-gateway.hcl:/consul/api-gateway/api-gateway.hcl
+      # - ./agent-config-api-gateway.hcl:/consul/config/agent.hcl
+      - ./agent-config-api-gateway.hcl.tmpl:/consul/config/agent-config-api-gateway.hcl.tmpl
+      - ./consul/data/api-gateway:/consul/data
+      - ../devops/vault-agent/rendered/api-gateway-1.env:/vault-agent/rendered/api-gateway-1.env
+    restart: unless-stopped
+    dns:
+      - 172.27.0.2
+    networks:
+      app-network:
+        ipv4_address: 172.27.0.31
+  
+  api-gateway-sidecar:
+    build:
+      context: .
+      dockerfile: envoyproxy/envoy/Dockerfile.consul-envoy
+    platform: linux/arm64
+    container_name: api-gateway-sidecar
+    volumes:
+      - ./entrypoint-sidecar.sh:/entrypoint.sh
+      - ../devops/vault-agent/rendered/api-gateway-1.env:/vault-agent/rendered/api-gateway-1.env
+    network_mode: "service:api-gateway-1"
+    depends_on:
+      - api-gateway-1
+
+  # consul-agent-api-gateway:
+  #   image: hashicorp/consul:1.21.1
+  #   container_name: consul-agent-api-gateway
+  #   command: agent -config-dir=/consul/config
+  #   volumes:
+  #     - ./agent-config-api-gateway.hcl:/consul/config/agent.hcl
+  #     - ./consul/data/api-gateway:/consul/data
+  #   env_file:
+  #     - ../devops/vault-agent/rendered/api-gateway-1.env
+  #   networks:
+  #     app-network:
+  #       ipv4_address: 172.27.0.31
+
+  # api-gateway-sidecar:
+  #   build:
+  #     context: .
+  #     dockerfile: envoyproxy/envoy/Dockerfile.consul-envoy
+  #   command: >
+  #     sh -c "
+  #       chmod +x /entrypoint.sh && \
+  #       /entrypoint.sh
+  #     "
+  #   volumes:
+  #     - ./entrypoint-sidecar.sh:/entrypoint.sh
+  #     - ../devops/vault-agent/rendered/api-gateway-1.env:/vault-agent/rendered/api-gateway-1.env
+  #   network_mode: "service:api-gateway-1"
+  #   depends_on:
+  #     - api-gateway-1
+
+  # api-gateway-2:
+  #   build:
+  #     context: .
+  #     dockerfile: Dockerfile
+  #     args:
+  #       GITHUB_TOKEN: ${GITHUB_TOKEN}
+  #   container_name: api-gateway-2
+  #   ports:
+  #     - "9002:9000"
+  #   env_file:
+  #     - ../devops/vault-agent/rendered/api-gateway-2.env
+  #   restart: unless-stopped
+  #   dns:
+  #     - 172.27.0.2
+  #   networks:
+  #     app-network:
+  #       ipv4_address: 172.27.0.32
+
+  # api-gateway-3:
+  #   build:
+  #     context: .
+  #     dockerfile: Dockerfile
+  #     args:
+  #       GITHUB_TOKEN: ${GITHUB_TOKEN}
+  #   container_name: api-gateway-3
+  #   ports:
+  #     - "9003:9000"
+  #   env_file:
+  #     - ../devops/vault-agent/rendered/api-gateway-3.env
+  #   restart: unless-stopped
+  #   dns:
+  #     - 172.27.0.2
+  #   networks:
+  #     app-network:
+  #       ipv4_address: 172.27.0.33
+
+networks:
+  app-network:
+    external: true
